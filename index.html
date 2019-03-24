@@ -1,403 +1,1391 @@
 <!DOCTYPE HTML>
 <!--
-	Tessellate by HTML5 UP
+	Prologue by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Tessellate by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<title> 蓝领小站 </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<link rel="icon" href="images/profile2.png">
+
+		<style>
+
+		@media screen and (min-width: 737px) {
+		.zoom_img1 img{
+			-moz-transition:-moz-transform 0.3s ease-in;
+			-webkit-transition:-webkit-transform 0.3s ease-in;
+			-o-transition:-o-transform 0.3s ease-in;
+			-ms-transition:-ms-transform 0.3s ease-in;
+		}
+		.zoom_img1 img:hover{
+			-moz-transform:scale(2);
+			-webkit-transform:scale(2);
+			-o-transform:scale(2);
+			-ms-transform: scale(2);
+
+		}
+		.zoom_img2 img{
+			-moz-transition:-moz-transform 0.3s ease-in;
+			-webkit-transition:-webkit-transform 0.3s ease-in;
+			-o-transition:-o-transform 0.3s ease-in;
+			-ms-transition:-ms-transform 0.3s ease-in;
+			transform-origin: left;
+			-moz-transform-origin: left;
+			-webkit-transform-origin: left;
+			-o-transform-origin: left;
+			-ms-transform-origin: left;
+		}
+		.zoom_img2 img:hover{
+			-moz-transform:scale(2);
+			-webkit-transform:scale(2);
+			-o-transform:scale(2);
+			-ms-transform: scale(2);
+
+		}
+		.zoom_img3 img{
+			-moz-transition:-moz-transform 0.3s ease-in;
+			-webkit-transition:-webkit-transform 0.3s ease-in;
+			-o-transition:-o-transform 0.3s ease-in;
+			-ms-transition:-ms-transform 0.3s ease-in;
+			transform-origin: right;
+			-moz-transform-origin: right;
+			-webkit-transform-origin: right;
+			-o-transform-origin: right;
+			-ms-transform-origin: right;
+		}
+		.zoom_img3 img:hover{
+			-moz-transform:scale(2);
+			-webkit-transform:scale(2);
+			-o-transform:scale(2);
+			-ms-transform: scale(2);
+		}
+		}
+
+		</style>
+
+<!--
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-90304884-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script> -->
+
 	</head>
-	<body class="is-preload">
+	<body>
 
 		<!-- Header -->
-			<section id="header" class="dark">
-				<header>
-					<h1>Welcome to Tessellate</h1>
-					<p>A free responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
-				</header>
-				<footer>
-					<a href="#first" class="button scrolly">Proceed to second phase</a>
-				</footer>
-			</section>
-
-		<!-- First -->
-			<section id="first" class="main">
-				<header>
-					<div class="container">
-						<h2>Tessellate is a free responsive site template</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
-					</div>
-				</header>
-				<div class="content dark style1 featured">
-					<div class="container">
-						<div class="row">
-							<div class="col-4 col-12-narrow">
-								<section>
-									<span class="feature-icon"><span class="icon fa-clock-o"></span></span>
-									<header>
-										<h3>Gravida</h3>
-									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
-								</section>
-							</div>
-							<div class="col-4 col-12-narrow">
-								<section>
-									<span class="feature-icon"><span class="icon fa-bolt"></span></span>
-									<header>
-										<h3>Vivamus</h3>
-									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
-								</section>
-							</div>
-							<div class="col-4 col-12-narrow">
-								<section>
-									<span class="feature-icon"><span class="icon fa-cloud"></span></span>
-									<header>
-										<h3>Accumsan</h3>
-									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
-								</section>
-							</div>
-							<div class="col-12">
-								<footer>
-									<a href="#second" class="button scrolly">Gravida tempor lacinia</a>
-								</footer>
-							</div>
+			<div id="header">
+				<div class="top">
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image profile"><img src="images/profile.jpg" alt="" /></span>
+							<h1 id="title">蓝领小站 </h1>
+							<p>北美<br> </p>
 						</div>
-					</div>
-				</div>
-			</section>
 
-		<!-- Second -->
-			<section id="second" class="main">
-				<header>
-					<div class="container">
-						<h2>Euismod sed feugiat lorem tempus magna</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
-					</div>
-				</header>
-				<div class="content dark style2">
-					<div class="container">
-						<div class="row">
-							<div class="col-4 col-12-narrow">
-								<section>
-									<h3>Augue vivamus sed ipsum commodo lorem dolor</h3>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
-									tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante
-									vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
-									augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-									lorem ipsum dolor placerat magna tempus feugiat.</p>
-									<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
-									euismod lorem ipsum dolor.</p>
-									<footer>
-										<a href="#third" class="button scrolly">Accumsan nisi tempor</a>
-									</footer>
-								</section>
-							</div>
-							<div class="col-8 col-12-narrow">
-								<div class="row">
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a></div>
-									<div class="col-6"><a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
 
-		<!-- Third -->
-			<section id="third" class="main">
-				<header>
-					<div class="container">
-						<h2>Ornare varius lorem ipsum ante lectus</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
-					</div>
-				</header>
-				<div class="content dark style3">
-					<div class="container">
-						<span class="image featured"><img src="images/pic07.jpg" alt="" /></span>
-						<div class="row">
-							<div class="col-4 col-12-narrow">
-								<h3>Diam vivamus turpis lorem sodales lectus ornare</h3>
-								<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
-								tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante
-								vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
-								augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-								lorem ipsum dolor placerat magna tempus feugiat.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-								accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
-								euismod lorem ipsum dolor sit amet consequat. vivamus nisi eu eget ornare varius
-								gravida dolore euismod lorem ipsum dolor sit amet consequat. vivamus nisi eu
-								eget ornare et magna.</p>
-							</div>
-							<div class="col-4 col-12-narrow">
-								<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
-								tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante
-								vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
-								augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-								lorem ipsum dolor placerat magna tempus feugiat.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-								accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
-								euismod lorem ipsum dolor sit amet consequat eget ornare varius gravida euismod.
-								Gravida dis lorem ipsum dolor placerat magna tempus feugiat magna tempus lorem.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-								accumsan vivamus augue cubilia.</p>
-							</div>
-							<div class="col-4 col-12-narrow">
-								<p>Placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui
-								lacinia eget ornare varius gravida. Gravida dis placerat lectus ante vel nunc
-								euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue
-								cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-								lorem ipsum dolor placerat magna tempus feugiat. Lectus ante vel nunc euismod
-								est turpis sodales. Diam tempor dui lacinia dolore.</p>
-								<p>Accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida
-								dolore euismod lorem ipsum dolor sit amet conseismod lorem ipsum dolor sit amet
-								consequat lorem ipsum consequat feugiat sed tempus euismod feugiat veroeros.</p>
-								<footer>
-									<a href="#fourth" class="button scrolly">Ipsum ornare lorem dolor</a>
-								</footer>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+								Prologue's nav expects links in one of two formats:
 
-		<!-- Basic Elements -->
-		<!--
-			<section class="main">
-				<header>
-					<div class="container">
-						<h2>A Whole Lotta Elements</h2>
-						<p>General purpose elements for every general purpose. Or something like that.</p>
-					</div>
-				</header>
-				<div class="content style1 dark">
-					<div class="container">
-						<section>
-							<header>
-								<h3>Paragraph</h3>
-								<p>This is a byline</p>
-							</header>
-							<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
-							habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
-							leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-							amet risus elit.</p>
-						</section>
-						<section>
-							<header>
-								<h3>Blockquote</h3>
-							</header>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-							tempus euismod. Vestibulum ante ipsum primis in faucibus. Cras sit amet urna eros, id egestas
-							tempus ante ipsum primis in faucibus orci luctus et ultrices.</blockquote>
-						</section>
-						<section>
-							<header>
-								<h3>Divider</h3>
-							</header>
-							<p>Donec consectetur <a href="#">vestibulum dolor et pulvinar</a>. Etiam vel felis enim, at viverra
-							ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-							facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-							tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-							posuere cubilia.</p>
-							<hr />
-							<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-							ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-							facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-							tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-							posuere cubilia.</p>
-						</section>
-						<section>
-							<header>
-								<h3>Unordered List</h3>
-							</header>
-							<ul class="default">
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+							<!--	<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Welcome</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-info-circle">About Me</span></a></li>
+
+								
+								<li><a href="#Works" id="Works-link" class="skel-layers-ignoreHref"><span class="icon fa-star">Work</span></a></li>
+								<li><a href="#Projects" id="Projects-link" class="skel-layers-ignoreHref"><span class="icon fa-file-text-o">Projects</span></a></li>
+								<li><a href="#Activities" id="Activities-link" class="skel-layers-ignoreHref"><span class="icon fa-university">Activities</span></a></li>
+								
+								<li><a href="#Skills" id="Skills-link" class="skel-layers-ignoreHref"><span class="icon fa-thumbs-up">Skills</span></a></li>
+								<li><a href="#Interests" id="Interests-link" class="skel-layers-ignoreHref"><span class="icon fa-instagram">Interests</span></a></li>
+								<li><a href="#Contact" id="Contact-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Contact</span></a></li> -->
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-graduation-cap">About</span></a></li>
+								<li><a href="#material" id="material-link" class="skel-layers-ignoreHref"><span class="icon fa-paperclip">Material</span></a></li>
+								<!-- <li><a href="#course" id="course-link" class="skel-layers-ignoreHref"><span class="icon fa-cubes">Course</span></a></li> -->
+								<li><a href="#publication" id="publication-link" class="skel-layers-ignoreHref"><span class="icon fa-book">Publications</span></a></li>
+								<!-- <li><a href="#research" id="research-link" class="skel-layers-ignoreHref"><span class="icon fa-bar-chart">Research</span></a></li> -->
+								<li><a href="#award" id="award-link" class="skel-layers-ignoreHref"><span class="icon fa-trophy">Awards</span></a></li>
+								<li><a href="#reference" id="reference-link" class="skel-layers-ignoreHref"><span class="icon fa-coffee">References</span></a></li>
+								<li><a href="#project" id="project-link" class="skel-layers-ignoreHref"><span class="icon fa-file-text-o">Projects</span></a></li>
+								<li><a href="#work" id="work-link" class="skel-layers-ignoreHref"><span class="icon fa-briefcase">Work</span></a></li>
+								<li><a href="#activity" id="activity-link" class="skel-layers-ignoreHref"><span class="icon fa-paper-plane">Activities</span></a></li>
+								<li><a href="#honor" id="honor-link" class="skel-layers-ignoreHref"><span class="icon fa-trophy">Honors</span></a></li>
+								<li><a href="#skill" id="skill-link" class="skel-layers-ignoreHref"><span class="icon fa-thumbs-up">Skills</span></a></li>
+								<li><a href="#hobby" id="hobby-link" class="skel-layers-ignoreHref"><span class="icon fa-heart">Hobby</span></a></li>
+								<li><a href="#travel" id="travel-link" class="skel-layers-ignoreHref"><span class="icon fa-plane">Travel</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Contact</span></a></li>
+
+
 							</ul>
-						</section>
-						<section>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<!-- <li><a href="https://www.facebook.com/miranda.yao.39" class="icon fa-facebook-official" target="_blank"><span class="label">Facebook</span></a></li> -->
+							<li><a href="mailto:r03544029@ntu.edu.tw" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://www.linkedin.com/in/yaolin-chen" class="icon fa-linkedin-square" target="_blank"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/mirandayaoyao" class="icon fa-github" target="_blank"><span class="label" target="_blank">Github</span></a></li>
+							<li><a href="https://www.instagram.com/mirandacyl/" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+							<!-- <li><a href="http://www.weibo.com/u/1959992255/" class="icon fa-weibo" target="_blank"><span class="label">Weibo</span></a></li>  -->
+							<!-- <li><a href="https://www.instagram.com/mirandacyl/" class="icon fa-wechat" target="_blank"><span class="label">Wechat</span></a></li>	-->						
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+<!-- -------------------------------------------------------------------- Main ---------------------------------------------------------------------->
+
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">    <!-- two dark cover-->
+						<div class="container">
+
 							<header>
-								<h3>Ordered List</h3>
+								<h2 class="alt" align="center">欢迎来到 <strong>蓝岭小站 </strong></h2><br/>
+
+							<!--	<p align="center">
+								<font size="10"><a href="https://www.dropbox.com/s/pirdof53k4ubpy0/resume-gerenal.pdf?dl=0" class="icon fa-file-pdf-o"><span class="label">resume</span></a></font> &emsp; &emsp; 
+								<font size="10"><a href="https://mirandayaoyao.github.io/gallery/" class="icon fa-camera"><span class="label">gallery</span></a></font> &emsp; &emsp; 
+								<font size="10"><a href="blog/index.html" class="icon fa-pencil-square-o"><span class="label">blog</span></a></font> &emsp; &emsp;
+								<font size="10"><a href="https://github.com/Mirandayaoyao" class="icon fa-github"><span class="label">github</span></a></font>
+								</p> -->
+
+
+
+
+								<p align="center">🔎 留学申请经验分享工作坊 <br />
+									</p>
+
+
+								<p  align="center">
+
+                                    <a href="#"> [金融专业]</a> &emsp; &emsp; 
+                                    <a href="#"> [计算机专业]</a> &emsp; &emsp; 
+									<a href="#"> [数学专业]</a> &emsp; &emsp; 
+									<a href="#"> [规划专业]</a>  &emsp; &emsp; 
+									<a href="#"> [更多]</a>  &emsp; &emsp; 
+									
+									</p>
+
+									
+                                    <br/>
+								
+
+
+
+								
 							</header>
-							<ol class="default">
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-								<li>Donec consectetur vestibulum dolor et vel felis enim at viverra ligula. Ut porttitor sagittis lorem.</li>
-							</ol>
-						</section>
-						<section>
+
+							<footer>
+								<a href="./admission/index.html" class="button scrolly">录取信</a>
+							</footer>
+
+						</div>
+					</section>
+
+
+
+<!-- -------------------------------------------------------------------- About ---------------------------------------------------------------------->
+
+				<!-- About Me -->
+					<section id="about" class="two">
+						<div class="container">
+
 							<header>
-								<h3>Table</h3>
+								<h2 align="center">关于</h2>
+								<!--
+								<h2 align="center">
+									<<iframe width="900" height="500" src="#" frameborder="0" allow="autoplay; encrypted-media"
+								 allowfullscreen></iframe>
+								</h2> -->
 							</header>
-							<div class="table-wrapper">
-								<table class="default">
-									<thead>
-										<tr>
-											<th>ID</th>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>00001</td>
-											<td>Lorem ipsum dolor</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>00002</td>
-											<td>Sit amet nullam</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>00003</td>
-											<td>Feugiat felis viverra</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>00004</td>
-											<td>Sagittis enim felis</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>00005</td>
-											<td>Nullam sed vestibulum</td>
-											<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
-											<td>19.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="3"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-						<section>
-							<header>
-								<h3>Form</h3>
-							</header>
-							<form method="post" action="#">
-								<div class="row gtr-50">
-									<div class="col-6 col-12-narrow">
-										<input type="text" name="name" id="name" value="" placeholder="John Doe" />
-									</div>
-									<div class="col-6 col-12-narrow">
-										<input type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-									</div>
-									<div class="col-12">
-										<div class="select" tabindex="-1">
-											<select name="department" id="department">
-												<option value="">Choose a department</option>
-												<option value="1">Manufacturing</option>
-												<option value="2">Administration</option>
-												<option value="3">Support</option>
-											</select>
-										</div>
-									</div>
-									<div class="col-12">
-										<input type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Enter your message"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" class="button" value="Send Message" /></li>
-											<li><input type="reset" class="button alt" value="Clear Form" /></li>
-										</ul>
+
+							<div class="11u 12u$(mobile)"><ul align="left" style="list-style-type:disc;padding-left:20px"><font size="4">
+
+								<div image align="right">
+									<div class="4u 12u$(mobile)">
+										<img style='height: 40%; width: 40%; object-fit: contain' src="images/bra.jpg" >
+										<img style='height: 40%; width: 40%; object-fit: contain' src="images/col.jpeg" >
+										<img style='height: 40%; width: 40%; object-fit: contain' src="images/gt.png" >
+										<img style='height: 40%; width: 40%; object-fit: contain' src="images/ksu.png" >
+										<img style='height: 40%; width: 40%; object-fit: contain' src="images/msu.png" >
+										<img style='height: 40%; width: 40%; object-fit: contain' src="images/nyu.png" >
+										<img style='height: 40%; width: 40%; object-fit: contain' src="images/vt.png" >
+										
+
 									</div>
 								</div>
-							</form>
-						</section>
-					</div>
-				</div>
-			</section>
-		-->
 
-		<!-- Fourth -->
-			<section id="fourth" class="main">
-				<header>
-					<div class="container">
-						<h2>Sed feugiat ipsum consequat</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
-					</div>
-				</header>
-				<div class="content style4 featured">
-					<div class="container medium">
-						<form method="post" action="#">
-							<div class="row gtr-50">
-								<div class="col-6 col-12-mobile"><input type="text" placeholder="Name" /></div>
-								<div class="col-6 col-12-mobile"><input type="text" placeholder="Email" /></div>
-								<div class="col-12"><textarea name="message" placeholder="Message"></textarea></div>
-								<div class="col-12">
-									<ul class="actions special">
-										<li><input type="submit" class="button" value="Send Message" /></li>
-										<li><input type="reset" class="button alt" value="Clear Form" /></li>
+								
+								<li> 定位评估</li>
+								<li> 选校</li>
+								<li> 文书</li>
+								<li> 简历</li>
+								<li> 简历网站</li>
+								<li> 简历网站点击跟踪</li>
+								<li> 零基础编程能力</li>
+								<li> 开放网课修课证书</li>
+																	<details>
+										<summary>更多</summary>
+												
+												<li> A </li>
+												<li> B </li>													
+					
+										
+									</details>
+									<div style="line-height:70%;"><br></div>
+
+
+								<!--<li>2017 &emsp; 🎓<u> M.S. in Urban & Regional Planning</u> &emsp; <b>🏫 National Taiwan University</b>																		
+									<br>Supervised by Dr. <a href="http://www.bp.ntu.edu.tw/?p=207" target="_blank">Chih-Hung Wang</a>	<br>
+									<b><u><a href="https://www.dropbox.com/s/7rla5hho4kiy68a/Transcript-NJU-en.pdf?dl=0" target="_blank">[GPA:4.31/5.00]</a> </u> </b> <br>
+									<b><u><a href="./foodways/index.html" target="_blank">[thesis: Foodways]</a> </u> </b>						
+									<details>
+										<summary>Key Courses:</summary>
+											<li> Participatory Planning</li>
+											<li> Community Participation </li>
+											<li> Social Design </li>
+											<li> Urban Governance & Culture Research </li>
+											<li> Urban Planning </li>
+									</details>
+									<div style="line-height:70%;"><br></div>
+								</li>
+
+
+								<li>2013 &emsp; 🎓<u> B.A. in Sociology </u> &emsp; <b>🏫 Nanjing University</b> <br>
+								<b><u><a href="https://www.dropbox.com/s/wg7tjc0e0s03kq2/Transcript-NTU-en.pdf?dl=0" target="_blank">[GPA: 3.66/4.30]</a> </u> </b> <br>
+								<b><u><a href="./migrant/index.html" target="_blank">[thesis: migrant worker]</a> </u> </b>	
+								<details>
+									<summary>Key Courses:</summary>
+									<li> Urban Research</li>
+									<li> General Psychology </li>
+									<li> Social Policy </li>
+									<li> Cultural Anthropology </li>
+									<li> Rural Sociology </li>
+								</details>
+
+								<li>Born City：Suzhou, Jiangsu</li>
+								<li>Chinese name: 陳瑤琳 </li>
+
+								<div style="line-height:70%;"><br></div>
+								</li>
+								<li>My research interests include:
+									<font size="3">
+										<br>- <u>Urban Planning </u>
+										<br>- <u>Social Geography </u>, espeicial in Food Geography
+										<br>- Urbanization and Transformation in Asia
+										<br>- STS
+
+									</font>
+								</li>
+								<li>
+								<img style='height: 50%; width: 50%; object-fit: contain' src="images/vienn.png">
+								</li>
+								
+								<li>For more information about me, please refer to the <a href="https://www.dropbox.com/s/or34yt2l01kslx0/resume-general.pdf?dl=0"
+										target="_blank">[CV]</a>.</li>								
+
+
+							</font></ul></div> -->
+
+
+
+						</div>
+					</section>
+
+
+
+<!-- --------------------------------------------------------------------Material ---------------------------------------------------------------------->
+
+				<!--	<section id="material" class="two">
+						<div class="container">
+					
+							<header>
+								<h2 align="center">Materials</h2>
+							</header>
+					
+							<h3 align="left">
+								<font size="5">Here provide necessary supporting materials for 2019 Fall Ph.D. application. </font>
+							</h3>
+							<div class="row">
+					
+								<div class="4u 12u$(mobile)">
+									<img style='height: 100%; width: 100%; object-fit: contain' src="images/m1.jpg">
+								</div>
+								<div class="8u 12u$(mobile)">
+									<div style="line-height:60%;"><br></div>
+									<ul align="left" style="list-style-type:disc;padding-left:20px">
+										<font size="3">
+											<li> <u><a href="https://www.dropbox.com/s/or34yt2l01kslx0/resume-general.pdf?dl=0">[Resume]</a></u>
+											<li> <u><a href="/documents/notFound.html">[Blog]</a></u>
+											<li> <u><a href="https://github.com/Mirandayaoyao">[Coding]</a></u>
+											<li> <u><a href="/documents/notFound.html">[Statement of Purpose]</a></u> /
+												<a href="/documents/notFound.html">[Writing Sample]</a> </li>
+											<li><a href="https://www.dropbox.com/s/wg7tjc0e0s03kq2/Transcript-NTU-en.pdf?dl=0">[M.S transcript]</a> /
+												<a href="https://www.dropbox.com/s/7rla5hho4kiy68a/Transcript-NJU-en.pdf?dl=0"> [B.S transcript]</a></li>
+											<li>
+												<a href="./coursera/index.html" target="_blank">[Coursera Certificates of Programming]</a></li>
+											<li>
+												 <ul>Selected projects: 
+												 <font size="2">
+														<li> <a href="https://www.dropbox.com/s/m3qipdt3j2ezrzd/housing%20en.pdf?dl=0">[public housing slides]</a>
+														     <a href="./housing/index.html">[public housing website]</a> </li>
+														<li> <a href="https://www.dropbox.com/s/1st6qi9jwgdx29y/M.S.Foodways.en.pdf?dl=0">[foodways slides]</a>
+																<a href="./foodway/index.html">[foodways website]</a> </li>
+														<li> <a href="https://docs.google.com/document/d/1GEK0juuee2AMOIjilthU_DhZodHicdVDcd1QuA1Y350/edit?usp=sharing">[migrant abstract]</a>
+																<a href="./migrant/index.html">[migrant website] </a><li>
+														<li> <a href="https://drive.google.com/open?id=1-5ezp9rbrSthMbLI1fIfTZPbsBTcCqFAyYJkW5K09vA">[revitalization abstract]</a>
+															<a href="./revitalization/index.html">[revitalization website]</a> <li>
+															</font>
+												</ul>
+											</li>
+											<li> Publications sample: <a href="https://drive.google.com/open?id=1GKg145sn8-nGivm-Y1OkZ7Ff4nf2ZyA2cjuxO_oHMSc">[foodways]</a>
+																		<a href="https://drive.google.com/open?id=1-5ezp9rbrSthMbLI1fIfTZPbsBTcCqFAyYJkW5K09vA">[revitalization] </a></li>
+											<li> Theses sample: <a href="https://drive.google.com/open?id=1GEK0juuee2AMOIjilthU_DhZodHicdVDcd1QuA1Y350">[undergraduate]</a>
+											<a href="https://drive.google.com/open?id=1GKg145sn8-nGivm-Y1OkZ7Ff4nf2ZyA2cjuxO_oHMSc">[graduate]</a> </li>
+
+											<li><a href="https://www.dropbox.com/s/9vl1yjed30gk3ad/conference-slides.pdf?dl=0">[Conference slides]</a> /
+												<a href="https://www.dropbox.com/s/eyz851gl0wv0n06/Thesis-MS-abstract.pdf?dl=0"> [M.S. thesis abstract sample]</a></li> 
+											<li> <i> <font size="1">* Materials submmitted to each program may be slightly different to the above, please refer to submmited version. </font> </i>
+										</font>
 									</ul>
 								</div>
 							</div>
-						</form>
+							<hr>
+						</div>
+					</section> -->
+
+
+<!-- -------------------------------------------------------------------- Publication ---------------------------------------------------------------------->
+
+					<!-- Publication 
+					<section id="publication" class="three">
+						<div class="container">
+					
+							<header>
+								<h2 align="center">Publications</h2>
+							</header>
+					
+							<h3 align="left">
+								<font size="5">Conference Papers</font>
+							</h3>
+							<ul align="left" style="list-style-type:disc;padding-left:20px">
+
+								<li style="letter-spacing:-0.2px;">
+									<font size="4"><u>Yaolin Chen</u>, Liling Huang, "<b>Making Art Urban Village: Art Intervention in Shangwei Village, 
+
+									</b>" in <i>The 25th International Sustainable Development Research Society (ISDRS), Nanjing, Jul, 2019.(submmitted)</i>
+										<a href="https://docs.google.com/document/d/1xIPn_dEaHgg1yU7R267TAAo6zYQYjz5UEP3gOIRWm5A/edit?usp=sharing">[abstract] </a>
+										<a href="./revitalization/index.html"> [website] </a>
+									</font>
+								</li>
+
+					
+								<li style="letter-spacing:-0.2px;">
+									<font size="4"><u>Yaolin Chen</u>, Chih-Hung Wang, "<b>Adaptation and Foodways Changes after Demolition and Relocation during Urbanization,
+
+									</b>" in <i>Culture Studies Association, Taiwan, Feb, 2018.</i>
+										<a href="https://www.dropbox.com/s/9vl1yjed30gk3ad/conference-slides.pdf?dl=0">[slides]  </a>
+										<a href="./foodway/index.html">[website]  </a>
+										<a href="https://www.csat.org.tw/Years.aspx?ID=93&ek=99&pg=1&d=">[author list]</a>
+									</font>
+								</li>
+
+							</ul>
+					
+							<h3 align="left">
+								<font size="5">Book</font>
+							</h3>
+							<ul align="left" style="list-style-type:disc;padding-left:20px">
+								<li>
+									<font size="4">Chih-Hung Wang, and <u>Yaolin Chen</u> etc., "<b>Real Planning - Projects Collections of Building and Planning</b>" , Taiwan, April 2016.</font>
+								</li>
+							</ul>
+						</div>
+					</section> -->
+
+
+<!-- -------------------------------------------------------------------- Award ---------------------------------------------------------------------->
+				<!-- award
+				<section id="award" class="two">
+					<div class="container">
+
+						<header>
+							<h2 align="center">Awards</h2>
+						</header>
+						<div class="row">
+
+							<div class="4u 12u$(mobile)">
+								<img style='height: 95%; width: 95%; object-fit: contain' src="images/award1.jpg">
+							</div>
+
+							<div class="8u 12u$(mobile)">
+								<div style="line-height:60%;"><br></div>
+								<ul align="left" style="list-style-type:disc;padding-left:20px">
+									<font size="4">
+										<li> <u>1st prize of Hackthon-NTU</u>, organized by Ministry of Education, Taiwan, Mar 2016. </li>
+										<li> <u>1st Prize of Social practice</u>, Two consecutive years 2010-2011, top 10 in Dept. of Soci.</li>
+										<li> <u>Social Practice Scholarship</u>, Two consecutive years 2011-2012, top 10 in Dept. of Soci.</li>
+										<li> <u>3rd Class People's Scholarship</u>, 2012, top 25% in Dept. of Soci. </li>
+									</font>
+								</ul>
+							</div>
+						</div>
+						<hr>
 					</div>
-				</div>
-			</section>
+				</section>  -->
+
+
+<!-- -------------------------------------------------------------------- Reference ---------------------------------------------------------------------->
+<!-- award
+				<section id="reference" class="two">
+					<div class="container">
+
+						<header>
+							<h2 align="center">Reference</h2>
+						</header>
+						<div class="row">
+
+							<div class="4u 12u$(mobile)">
+								<img style='height: 95%; width: 95%; object-fit: contain' src="https://www.dropbox.com/s/tl1fbppj3gmosw6/RoL.JPG?dl=1">
+							</div>
+
+							<div class="8u 12u$(mobile)">
+								<div style="line-height:60%;"><br></div>
+								<ul align="left" style="list-style-type:disc;padding-left:20px">
+									<font size="4">
+										I get the honor to have references from these professors: 
+										
+										<li> Dr.<u> <a href="http://www.bp.ntu.edu.tw/?p=4162">Chih-Hung Chang</a></u>,  
+											<font size="2">M.S. advisor, Professor, Director of Graduate Inst. of Buiding & Planning, NTU</font></li>
+										<li> Dr.<u> <a href="http://www.bp.ntu.edu.tw/?p=3349">Shumei, Huang</a></u>, 
+											<font size="2">Couresework instructor. Assistant Professor, Graduate Inst. of Buiding & Planning, NTU</font></li> 
+										<li> Dr.<u> <a href="http://www.bp.ntu.edu.tw/?p=108">Liling, Huang</a></u>, 
+											<font size="2">Couresework instructor. Association Professor, Graduate Inst. of Buiding & Planning, NTU</font></li> 
+										<li> Dr.<u> <a href="http://sociology.nju.edu.cn/teacher/social/quanzhi/345.html">Yuan, Lu</a></u>, 
+											<font size="2">Couresework instructor. Lecturer Professor, Sociology Dept, NJU</font></li> 
+									</font>
+								</ul>
+							</div>
+						</div>
+						<hr>
+					</div>
+				</section> -->
+
+
+
+
+<!-- -------------------------------------------------------------------- Work ---------------------------------------------------------------------->
+				<!-- Work 
+					<section id="work" class="three">
+						<div class="container">
+
+							<header>
+								<h2 align="center">Works</h2>
+							</header>
+
+							<h3 align="left">
+								<font size="5">Intership, Urban Planning & Design Institute of Shenzhen </font>
+								<font size="3">(11/2017 - 12/2017)</font>
+							</h3>
+							<div class="row">
+								<div class="8u 12u$(mobile)">
+									<font size="4">
+										<ul align="left" style="list-style-type:disc;padding-left:20px">
+											
+											<li> Analyses of <b>demographic statistics</b> of Tianshui city. </li>
+											<li> Data mining of schools in Qianjiang city. </li>
+											<li> Evaluation of development of Yongkang city.</li>
+										</ul>
+									</font>
+								</div>
+							
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 70%; width: 70%; object-fit: contain' src="images/intern1.jpg"></div>
+								</div>
+							</div>
+							<hr>
+
+							
+
+							<h3 align="left"><font size="5">Intership, Urban & Building Fundation of NTU, Ilan County </font><font size="3">(1/2016-2 8/2016-10)</font></h3>
+							<div class="row">
+								<div class="8u 12u$(mobile)"><font size="4">
+									<ul align="left" style="list-style-type:disc;padding-left:20px">
+										
+										<li>attend Urban planner tutorials, 2015,2016</li>
+										<li>planning of Junyin District & Yuanshan Kid Park</li>									
+									</ul>
+									</font>
+								</div>
+
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 70%; width: 70%; object-fit: contain' src="images/in1.jpg"></div>
+								</div>
+							</div>
+							<hr>
+
+							<h3 align="left"><font size="5">Intership, Caixin Media, Beijing/Shanghai</font><font size="3">(2014.01-2014.05)</font></h3>
+							<div class="row">
+								<div class="8u 12u$(mobile)"><font size="4">
+									<ul align="left" style="list-style-type:disc;padding-left:20px">
+										
+										<li>Innovative Media Channel：Editing News for digital sales, innovative start-up news and interviews of 90s generation <a href="http://mediamaster.caixin.com/?p=1117" target="_blank">[links]</a></li>
+										<li>Health Channel：Part of the editing of medical and health news. <a href="http://www.healthpoint.cn/archives/1549" target="_blank">[links]</a></li>
+									</ul>
+									</font>
+								</div>
+
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 100%; width: 100%; object-fit: contain' src="images/in2.jpg"></div>
+								</div>
+							</div>
+							<hr>
+
+
+
+
+
+
+						</div>
+					</section> -->
+
+
+<!-- -------------------------------------------------------------------- Project ---------------------------------------------------------------------->
+				<!-- Project -->
+					<section id="project" class="two">
+						<div class="container">
+
+							<header>
+								<h2 align="center">团队</h2>
+							</header>
+
+
+							<h3 align="left">
+								<font size="5">姜同学, 理论数学，弗吉利亚理工</font>
+								<font size="3">(2017.9-)</font>
+							</h3>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 60%; width: 60%; object-fit: contain' src="images/vt.png"></div>
+								</div>
+								<div class="8u 12u$(mobile)">
+									<h4 align="left" style="line-height:120%;">
+										<font size="4">背景</font>
+									</h4>
+									<div class="8u 12u$(mobile)">
+										<font size="4">
+											<ul align="left" style="list-style-type:disc;padding-left:20px">
+												<li> 美本</li>
+												<li> 2</li>
+												<li> 3</li>
+												<li>  <a href="./blog/index.html">参考简历</a></li>
+											</ul>
+										</font>
+									</div>
+									<div style="line-height:60%;"><br></div>
+									<ul align="left" style="list-style-type:disc;padding-left:20px">
+										<font size="4">
+										</font>
+									</ul>
+								</div>
+							</div>
+							<hr>
+
+
+
+
+
+
+
+														<h3 align="left">
+								<font size="5">时同学, 金融，哥伦比亚大学</font>
+								<font size="3">(2017.9-)</font>
+							</h3>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 60%; width: 60%; object-fit: contain' src="images/vt.png"></div>
+								</div>
+								<div class="8u 12u$(mobile)">
+									<h4 align="left" style="line-height:120%;">
+										<font size="4">背景</font>
+									</h4>
+									<div class="8u 12u$(mobile)">
+										<font size="4">
+											<ul align="left" style="list-style-type:disc;padding-left:20px">
+												<li> 1</li>
+												<li> 2</li>
+												<li> 3</li>
+												<li>  <a href="#">参考简历</a></li>
+											</ul>
+										</font>
+									</div>
+									<div style="line-height:60%;"><br></div>
+									<ul align="left" style="list-style-type:disc;padding-left:20px">
+										<font size="4">
+										</font>
+									</ul>
+								</div>
+							</div>
+							<hr>
+
+																					<h3 align="left">
+								<font size="5">于同学, 电子机械，弗吉利亚理工</font>
+								<font size="3">(2017.9-)</font>
+							</h3>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 60%; width: 60%; object-fit: contain' src="images/vt.png"></div>
+								</div>
+								<div class="8u 12u$(mobile)">
+									<h4 align="left" style="line-height:120%;">
+										<font size="4">背景</font>
+									</h4>
+									<div class="8u 12u$(mobile)">
+										<font size="4">
+											<ul align="left" style="list-style-type:disc;padding-left:20px">
+												<li> 美本</li>
+												<li> 2</li>
+												<li> 3</li>
+												<li>  <a href="#">参考简历</a></li>
+											</ul>
+										</font>
+									</div>
+									<div style="line-height:60%;"><br></div>
+									<ul align="left" style="list-style-type:disc;padding-left:20px">
+										<font size="4">
+										</font>
+									</ul>
+								</div>
+							</div>
+							<hr>
+
+
+														<h3 align="left">
+								<font size="5">程同学, 城市规划，布法罗大学</font>
+								<font size="3">(2017.9-)</font>
+							</h3>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 60%; width: 60%; object-fit: contain' src="images/ub.png"></div>
+								</div>
+								<div class="8u 12u$(mobile)">
+									<h4 align="left" style="line-height:120%;">
+										<font size="4">背景</font>
+									</h4>
+									<div class="8u 12u$(mobile)">
+										<font size="4">
+											<ul align="left" style="list-style-type:disc;padding-left:20px">
+												<li> </li>
+												<li> 2</li>
+												<li> 3</li>
+												<li>  <a href=".#">参考简历</a></li>
+												<li>  <a href=".#">参考个人网站</a></li>
+												<li>  <a href=".#">参考网课修课证书</a></li>
+											</ul>
+										</font>
+									</div>
+									<div style="line-height:60%;"><br></div>
+									<ul align="left" style="list-style-type:disc;padding-left:20px">
+										<font size="4">
+										</font>
+									</ul>
+								</div>
+							</div>
+							<hr>
+
+							<!--  <h3 align="left">
+								<font size="5">Web Design - Miranda's blog and resume page</font>
+								<font size="3">(2018.9)</font>
+							</h3>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 100%; width: 80%; object-fit: contain' src="https://www.dropbox.com/s/ncr0yspwmofoyss/project-web.jpg?dl=1"></div>
+								</div>
+								<div class="8u 12u$(mobile)">
+									<h4 align="left" style="line-height:120%;">
+										<font size="4">Starting as a programming newbie, hundreds of hours work learning html & 
+											 design resume page & blog (50+ articles) by html5up template.</font>
+									</h4>
+									<div class="8u 12u$(mobile)">
+										<font size="4">
+											<ul align="left" style="list-style-type:disc;padding-left:20px">
+												<li> <a href="./blog/index.html">[Blog] </a></li>
+												<li> coding management with github,</li>
+												<li> go through html tutorial in codeacademy & Coursera,</li>
+												<li> summary note of html. <a href="https://github.com/Mirandayaoyao/mirandayaoyao.github.io" target="_blank">[links]</li>	
+											</ul>
+										</font>
+									</div>
+									<div style="line-height:60%;"><br></div>
+									<ul align="left" style="list-style-type:disc;padding-left:20px">
+										<font size="4">
+										</font>
+									</ul>
+								</div>
+							</div>
+							<hr>
+
+
+
+
+		
+
+
+
+
+
+
+
+
+							<h3 align="left"><font size="5">Regional Planning of PuJiang & Pinling District</font> <font size="3">(2015.7-2016.1)</font></h3>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 95%; width: 95%; object-fit: contain' src="images/prj3.jpg"></div>
+								</div>
+
+								<div class="8u 12u$(mobile)">
+									<h4 align="left" style="line-height:120%;"><font size="4">
+										<li> Investigation of ChengJia Village with rich tea and Transformation of Tea House. </li>
+									    <li> Reformation of tea-ecological factory in Pinling-Feitsui Reservoir and Tea Areas. </li>
+
+									</font></h4>
+									<div style="line-height:60%;"><br></div>
+									<ul align="left" style="list-style-type:disc;padding-left:20px">
+										<font size="4">
+										</font>
+									</ul>
+								</div>
+							</div>
+							<hr>
+
+
+
+
+
+							<h3 align="left"><font size="5">Culture Heritage Reservation of Train Maintenance Factory in Taipei.</font> <font size="3">(2015.3-2015.7)</font></h3>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 95%; width: 95%; object-fit: contain' src="images/prj4.jpg"></div>
+								</div>
+
+								<div class="8u 12u$(mobile)">
+									<h4 align="left" style="line-height:120%;"><font size="4">Revitalize the industrial heritage, proposal of education, international communication, 
+									community development, jobs and activity platform after detailed fieldwork and survey.</font></h4>
+									<ul align="left" style="list-style-type:disc;padding-left:20px">
+										<font size="4">
+											<li>[<a href="documents/prj4.pdf" target="_blank">report</a>]</li>
+										</font>
+									</ul>
+								</div>
+							</div>
+
+
+							<h3 align="left"><font size="5">Reformation of NTU-BP Building</font> <font size="3">(2014.9-2015.1)</font></h3>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 95%; width: 95%; object-fit: contain' src="images/prj5.jpg"></div>
+								</div>
+
+								<div class="8u 12u$(mobile)">
+									<h4 align="left" style="line-height:120%;"><font size="4">To improve the inner space of the bldg, we make furniture by ourselves and hold activity to collect feedback from
+									students.</font></h4>
+									<ul align="left" style="list-style-type:disc;padding-left:20px">
+										<font size="4">
+											<li><a href="images/prj5-1.jpg">report</a></li>
+										</font>
+									</ul>
+								</div>
+							</div>
+
+
+
+
+
+
+
+
+								
+							
+							<details>
+								<summary>Click for More</summary>
+
+									<h3 align="left">
+										<font size="5">《Real Planning - Projects Collections of Building and Planning, NTU, 2016, In press》</font>
+										<font size="3">(2016)</font>
+									</h3>
+									<div class="row">
+										<div class="4u 12u$(mobile)">
+											<div class="zoom_img3"><img style='height: 60%; width: 60%; object-fit: contain' src="images/prj2.jpg"></div>
+										</div>
+										<div class="8u 12u$(mobile)">
+											<h4 align="left" style="line-height:120%;">
+												<font size="4">coauthor, completing nearly 1/4 work of the book including survey, fieldwork, writing and editing.</font>
+											</h4>
+											<div style="line-height:60%;"><br></div>
+											<ul align="left" style="list-style-type:disc;padding-left:20px">
+												<font size="4">
+												</font>
+											</ul>
+										</div>
+									</div>
+									<hr>
+
+									<h3 align="left">
+										<font size="5">Director of University Undergraduates Innovative Training Program</font>
+										<font size="3">(2012.4-2013.6)</font>
+									</h3>
+									<div class="row">
+										<div class="4u 12u$(mobile)">
+											<div class="zoom_img3"><img style='height: 75%; width: 75%; object-fit: contain' src="images/prj7.jpg"></div>
+										</div>
+									
+										<div class="8u 12u$(mobile)">
+											<h4 align="left" style="line-height:125%;">
+												<font size="4">
+													<li> Sponsored by National Undergraduate Innovation Program, Key Project of Nanjing University. </li>
+													<li> Investigate of power structure in economic behaviors </li>
+													<li> Lead the study on China New Town Development, relationship of personal economic role, cluster factor analysis. </li>
+												</font>
+											</h4>
+											<div style="line-height:60%;"><br></div>
+											<ul align="left" style="list-style-type:disc;padding-left:20px">
+												<font size="4">
+												</font>
+											</ul>
+										</div>
+									</div>
+									<hr>
+									
+									<h3 align="left">
+										<font size="5">Regional Planning of Jiangsu Mt. YouZi Forest Park</font>
+										<font size="3">(2013.5-6)</font>
+									</h3>
+									<div class="row">
+										<div class="4u 12u$(mobile)">
+											<div class="zoom_img3"><img style='height: 50%; width: 50%; object-fit: contain' src="images/prj6.jpg"></div>
+										</div>
+									
+										<div class="8u 12u$(mobile)">
+											<h4 align="left" style="line-height:115%;">
+												<font size="4">Propose six sections of the tourism project, e.g. Fairy-tale town, Folk-customs Village.</font>
+											</h4>
+											<div style="line-height:60%;"><br></div>
+											<ul align="left" style="list-style-type:disc;padding-left:20px">
+												<font size="4">
+												</font>
+											</ul>
+										</div>
+									</div>
+																
+
+							</details>
+
+						
+
+
+						</div>
+					</section>  -->
+
+
+
+
+<!-- -------------------------------------------------------------------- Activity ---------------------------------------------------------------------->	
+				<!--Activity -->
+					<section id="activity" class="two">
+						<div class="container">
+
+							<header>
+								<h2 align="center">往届成员案例</h2>
+							</header>
+
+
+							<h3 align="left">
+								<font size="5">佐治亚理工</font>
+								<font size="3">(2018.7- Current)</font>
+							</h3>
+							<div class="row">
+								<div class="8u 12u$(mobile)">
+									<font size="4">
+										<ul align="left" style="list-style-type:disc;padding-left:20px">
+											<li> 1</li>
+											<li> 1</li>
+											
+										</ul>
+									</font>
+								</div>
+							
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 100%; width: 100%; object-fit: contain' src="images/gt.png"></div>
+								</div>
+							</div>
+							<hr>
+
+<!--
+							<h3 align="left">
+								<font size="5">The 2nd Youth Workshop of the Strait</font>
+								<font size="3">(2013.12-2014.04)</font>
+							</h3>
+							<div class="row">
+								<div class="8u 12u$(mobile)">
+									<font size="4">
+										<ul align="left" style="list-style-type:disc;padding-left:20px">
+											<li> assemble group members </li>
+											<li>investigate the urban refresh of Nanjing historial disctrcit ，eidting one of the chapters</li>
+											<li> <a href="documents/in3.pdf" target="_blank">[report]</a></li>
+										</ul>
+									</font>
+								</div>
+							
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 100%; width: 100%; object-fit: contain' src="images/in3.jpg"></div>
+								</div>
+							</div>
+							<hr>
+							
+							<h3 align="left">
+								<font size="5">V-Teaching, NGO</font>
+								<font size="3">(2012.01-2013.03)</font>
+							</h3>
+							<div class="row">
+								<div class="8u 12u$(mobile)">
+									<font size="4">
+										<ul align="left" style="list-style-type:disc;padding-left:20px">
+											<li> Leader of the East  Group</li>
+											<li>Work of the campus promotion and build the team group <a href="https://www.douban.com/note/202388018/" target="_blank">[links]</a></li>
+										</ul>
+									</font>
+								</div>
+							
+								<div class="4u 12u$(mobile)">
+									<div class="zoom_img3"><img style='height: 100%; width: 100%; object-fit: contain' src="images/in4.jpg"></div>
+								</div>
+							</div>
+							
+
+
+							<details>
+								<summary>Click for More</summary>
+							
+									<hr>
+									<h3 align="left">
+										<font size="5">Volunteer of the First Female Sociologist Academic Forum</font>
+										<font size="3">(2013.3)</font>
+									</h3>
+									<div class="row">
+										<div class="8u 12u$(mobile)">
+											<font size="4">
+												<ul align="left" style="list-style-type:disc;padding-left:20px">
+													<li>Responsible for the preparation for the forum and the study all the trip </li>
+												</ul>
+											</font>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<div class="zoom_img3"><img style='height: 50%; width: 50%; object-fit: contain' src="images/act1.jpg"></div>
+										</div>
+									</div>
+									<hr>
+	
+							
+							</details>  -->
+
+
+
+
+									
+
+
+
+
+						</div>
+					</section>
+
+
+
+
+<!-- -------------------------------------------------------------------- skills ---------------------------------------------------------------------->
+
+					<!-- Skill 
+					<section id="skill" class="two">
+						<div class="container">
+
+							<header>
+								<h2 align="center">Skills</h2>
+							</header>
+
+							<div class="row">
+
+								<div class="8u 12u$(mobile)">
+
+									<div style="line-height:60%;"><br></div>
+									<ul align="left" style="list-style-type:disc;padding-left:20px">
+										<font size="4">											
+											
+											<li> GRE: 306 (146 Verbal)+ (160 Quantative) 3.0(Writing) To be Continue</li>
+											<li> Japanese (Prelimnary), Cantonese (Prelimnary)</li>
+					
+											<li> Programming：Python, Html, Latex, Markdown</li>
+											<li> Tools： Visual Studio Code, Github, Spider, Anaconda, Google Suites, Adobe Photoshop, Illustrator</li>
+										</font>
+									</ul>
+								</div>
+
+								<div class="4u 12u$(mobile)">
+									<img style='height: 95%; width: 95%; object-fit: contain' src="images/cloudWord.png">
+								</div>
+
+							</div>
+							<hr>
+
+						</div>
+					</section> -->
+
+
+
+					<section id="hobby" class="two">
+						<div class="container">
+
+							<header>
+								<h2 align="center">录取书 </h2>
+							</header>
+
+							<h3 align="left"><font size="5">1</font></h3>
+
+
+							<h4 align="left"><font size="4">:: 1::</font></h4>
+							<div style="line-height:60%;"><br></div>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 60%; width: 60%; object-fit: contain' src="images/a.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 60%; width: 60%; object-fit: contain' src="images/a.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 60%; width: 60%; object-fit: contain' src="images/a.jpg"></div>
+									</article>
+								</div>
+							</div>
+							<hr>  
+
+
+							<header>
+								<h2 align="center">修课证书 </h2>
+							</header>
+
+							<h3 align="left"><font size="5">1</font></h3>
+
+
+							<h4 align="left"><font size="4">:: 1</u> ::</font></h4>
+							<div style="line-height:60%;"><br></div>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 60%; width: 60%; object-fit: contain' src="images/a.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 60%; width: 60%; object-fit: contain' src="images/a.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 60%; width: 60%; object-fit: contain' src="images/a.jpg"></div>
+									</article>
+								</div>
+							</div>
+							<hr>  
+
+						
+				<!--			
+							<h4 align="left"><font size="4">:: <u>旅行，去过Taiwan大部分地方，日本，马来西亚，新加坡，越南/u> ::</font></h4>
+							<div style="line-height:60%;"><br></div>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 100%; width: 100%; object-fit: contain' src="images/t1.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 100%; width: 100%; object-fit: contain' src="images/t3.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 100%; width: 100%; object-fit: contain' src="images/t2.jpg"></div>
+									</article>
+								</div>
+							</div>
+							<hr>
+						-->
+							
+						<!--	<h4 align="left"><font size="4">:: <u>Views</u> ::</font></h4>
+							<div style="line-height:60%;"><br></div>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 100%; width: 100%; object-fit: contain' src="images/l1.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 100%; width: 100%; object-fit: contain' src="images/l3.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 80%; width: 80%; object-fit: contain' src="images/l2.jpg"></div>
+									</article>
+								</div>
+							</div>
+							<hr>  -->
+						
+
+					<!--		
+							<h4 align="left"><font size="4">:: <u>小动物</u> ::</font></h4>
+							<div style="line-height:60%;"><br></div>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 100%; width: 100%; object-fit: contain' src="images/c1.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 100%; width: 100%; object-fit: contain' src="images/c3.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 60%; width: 60%; object-fit: contain' src="images/c2.jpg"></div>
+									</article>
+								</div>
+							</div>
+							<hr>
+					-->
+
+							<!--<h4 align="left"><font size="4">:: <u>Food & Culture</u> ::</font></h4>
+							<div style="line-height:60%;"><br></div>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 100%; width: 100%; object-fit: contain' src="images/f1.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 70%; width: 70%; object-fit: contain' src="images/f3.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 100%; width: 100%; object-fit: contain' src="images/f2.jpg"></div>
+									</article>
+								</div>
+							</div>
+							<h4 align="left"><font size="4">For more information, please refer to my <a href="https://mirandayaoyao.github.io/blog/food">food gallery</a> or <a href="https://mirandayaoyao.github.io/blog">blog </a>.</font></h4>
+							<hr>  -->
+					<!--			
+							<h4 align="left"><font size="4">:: <u>运动</u> ::</font></h4>
+							<div style="line-height:60%;"><br></div>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 100%; width: 100%; object-fit: contain' src="images/s1.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 100%; width: 100%; object-fit: contain' src="images/s3.jpg"></div>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<div class="zoom_img2"><img style='height: 100%; width: 100%; object-fit: contain' src="images/s2.jpg"></div>
+									</article>
+								</div>
+							</div>
+							<hr>
+					</div>
+					-->
+
+
+					</section>
+
+
+
+
+<!-- -------------------------------------------------------------------- Travel ---------------------------------------------------------------------->
+					<!-- Travel-->
+				<!--	<section id="award" class="two">
+						<div class="container">
+
+							<header>
+								<h2 align="center">Travel</h2>
+							</header>
+							<div class="row">
+
+								<div class="4u 12u$(mobile)">
+									<img style='height: 95%; width: 95%; object-fit: contain' src="https://www.dropbox.com/s/307gxb0is6ot4j3/t2.jpg?dl=1">
+								</div>
+
+								<div class="8u 12u$(mobile)">
+									<div style="line-height:60%;"><br></div>
+									<ul align="left" style="list-style-type:disc;padding-left:20px">
+										<font size="4">
+											<li> Have travelled to most place in Asia and U.S., include Japan, Singapore, Malaysia, Vietname and Cambodia, see my <a href="https://www.instagram.com/mirandacyl/">blog</a> for more details</li>
+										</font>
+									</ul>
+								</div>
+							</div>
+							<hr>
+						</div>
+					</section> -->
+
+
+
+
+
+<!-- -------------------------------------------------------------------- contact ---------------------------------------------------------------------->
+				<!-- Contact -->
+					<section id="contact" class="seven">
+						<div class="container">
+
+							<header>
+								<h2 align="center">联系</h2>
+							</header>
+
+							<div class="row">
+
+								<div class="5u 12u$(mobile)">
+									<div style="line-height:30%;"><br></div>
+									<h3 align="left"><font size="5">Rebecca Li</font></h3>
+
+									<ul class="icons" align="left">
+										<!-- <li><a href="https://www.facebook.com/miranda.yao.39" class="icon fa-facebook-official" target="_blank"><span class="label">Facebook</span></a></li> -->
+										<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+										<li><a href="#" class="icon fa-wechat" target="_blank"><span class="label">Instagram</span></a></li>
+										<!-- <li><a href="http://www.weibo.com/u/1959992255/" class="icon fa-weibo" target="_blank"><span class="label">Weibo</span></a></li>  -->
+										<!-- <li><a href="https://www.instagram.com/mirandacyl/" class="icon fa-wechat" target="_blank"><span class="label">Wechat</span></a></li> -->
+									</ul>
+
+																		<p align="left"><font size="4">微信 ✉️:
+																				
+										<br>&emsp; todo
+
+									<p align="left"><font size="4">Email ✉️:
+																				
+										<br>&emsp; 1 "at" ntu.edu.tw
+									<!--	<br>&emsp; cherry.fight0918 "at" gmail.com
+										<br>&emsp; 1127171081 "at" qq.com</font></p>  -->
+
+									<!--<p align="left"><font size="4">微信<a class="icon fa-wechat" target="_blank"><span class="label">Instagram</span></a> :
+										chenyaolin0918</font></p> -->
+									<p align="left"><font size="4">Mobile Phone 📱:
+										
+										<br>&emsp; (+1) 540-750-1111 </font> </font></p>
+
+									<p align="left"><font size="4"> Acknowledge: cover photo by Sheng-I Yang, at Blueridge Parkway.
+
+
+								</div>
+
+								<div class="3u 12u$(mobile)">
+								</div>
+
+								<div class="3u 12u$(mobile)">
+									<a class="image fit"><img src="images/a.jpg" /></a>
+								<!--	<a class="image fit"><img src="images/profile1.jpg" /></a>   -->
+
+								</div>
+							</div>
+
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+			</div>
+
 
 		<!-- Footer -->
-			<section id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-					<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-				</ul>
-				<div class="copyright">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>Copyright &copy; 2018 Miranda</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
-				</div>
-			</section>
+
+			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+		
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126724002-1"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag() { dataLayer.push(arguments); }
+				gtag('js', new Date());
+
+				gtag('config', 'UA-126724002-1');
+			</script>
 
 	</body>
 </html>
